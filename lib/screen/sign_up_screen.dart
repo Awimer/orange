@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../presentation/constants/app_assets.dart';
 import '../widget/custom_text_form_field.dart';
 
 class SignupScreen extends StatelessWidget {
@@ -19,7 +20,7 @@ class SignupScreen extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(top: size.height / 30),
                 child: Image.asset(
-                  'assets/images/logo.png',
+                  odcImagePng,
                   height: size.height / 11,
                   width: size.width / 1.5,
                   fit: BoxFit.cover,

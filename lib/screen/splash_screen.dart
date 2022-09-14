@@ -4,6 +4,7 @@ import 'package:orange/presentation/constants/constents.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
+import '../presentation/constants/app_assets.dart';
 import 'home_screen.dart';
 import 'login_screen.dart';
 
@@ -19,7 +20,7 @@ class SplashScreen extends StatelessWidget {
             children: [
 
               Image.asset(
-                'assets/images/logo.png',
+                odcImagePng,
                 height: MediaQuery.of(context).size.height / 11,
                 width: MediaQuery.of(context).size.width / 1.5,
                 fit: BoxFit.cover,
